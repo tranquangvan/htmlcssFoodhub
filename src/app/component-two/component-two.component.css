@@ -1,0 +1,92 @@
+.main-container{
+  background-color: rgb(238, 235, 228);
+  height: 95vh;
+  display: flex;
+  flex-flow:column;
+}
+.container-title{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    font-family: "Signika";
+}
+
+.container-item1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.item1-content{
+font-family: Ubuntu;
+font-size: 1.5rem;
+color: rgb(122, 126, 126);
+}
+.container-tag{
+  display: flex;
+  margin: 1rem;
+  margin-left: 6rem;
+  height: 50vh;
+  justify-items: center;
+}
+.container-item-food{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 25%;
+  visibility: visible;
+  object-fit: cover;
+}
+.image-food{
+  position: relative;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 4px solid white ;
+  margin: 3%;
+  overflow: hidden;
+  border-radius: 2rem 2rem 2rem 2rem;
+
+}
+.image-category{
+  box-sizing: border-box;
+  display: flex;
+}
+.cat-image{
+  border: solid white;
+  height: 100%;
+  width: 100%;
+}
+.cat-image{
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.cat-image:hover{
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.catogory-food{
+  position: absolute;
+  margin-left: 0.2rem;
+  margin-top: 8rem;
+}
+.name-category{
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.name-category:hover{
+  text-decoration: none;
+}

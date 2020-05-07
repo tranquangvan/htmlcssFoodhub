@@ -1,0 +1,201 @@
+
+.navbar .navbar-nav .nav-link { color: #fff; }
+.navbar .navbar-nav .nav-link:hover { color: #78e639; }
+.navbar .navbar-nav .active > .nav-link { color: #fbc531; }
+
+.navbar {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: inherit;
+  font-weight: bold;
+}
+#icon:hover{
+color: #78e639;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-item{
+  font-weight: bold;
+  font-family:"Ubuntu";
+  font-size: 1rem;
+  margin: 1rem;
+  background-color: transparent;
+}
+.dropdown-item:hover{
+  color: #78e639;
+}
+.shop_cart i {
+  color: #fff;
+  font-size: 17px;
+  transition: all 300ms ease;
+  -webkit-transition: all 300ms ease;
+}
+.nav-login i {
+  font-size: 20px;
+  position: relative;
+  top: 1px;
+  color: #fff;
+}
+.nav-search i {
+    color: #fff;
+    font-size: 16px;
+}
+.bg-image{
+  background-image: url("../../assets/food-background2.jpg");
+
+  /* Full height */
+  height:97vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pl-1{
+  padding: 1rem 1.5rem;
+}
+.nav-item i{
+padding: 0.1rem 0.1rem;
+margin-top: 0.1rem;
+}
+
+.navbar-brand{
+  margin-top: 0.3rem;
+}
+.wrapper a{
+  display: block;
+  width: 200px;
+  height: 47px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .3s;
+  border-radius: 2rem;
+  margin-top: 1rem;
+}
+
+.wrapper a span{
+  position: relative;
+  z-index: 2;
+}
+
+.button-style:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: white;
+  transition: all .3s;
+  border-radius: 2rem;
+ 
+}
+
+.wrapper a:hover{
+  color: rgb(21, 133, 86);
+}
+
+.wrapper a:hover:after{
+  width: 100%;
+}
+.container{
+  display: flex;
+  color: #fff;
+  flex-flow: column;
+  position: absolute;
+  margin-top: 8rem;
+  margin-left: 7rem;
+}
+.row{
+  display: flex;
+  font-weight: bold;
+  font-size: 3.5rem;
+  justify-content: center;
+  font-family: Zapf Chancery, cursive;
+}
+.row1{
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 2rem;
+  font-family: Zapf Chancery, cursive;
+}
+.container-search{
+  display: flex;
+  justify-content: center;
+
+}
+.ipt-search{
+  height:60px;
+  width: 360px ;
+  outline: 0;
+  line-height: 60px;
+  padding: 0 16px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.search-input{
+  border: #fff solid;
+  border-radius: 2rem 0 0 2rem ;
+  -webkit-border-radius: 2rem 0 0 2rem;
+  font-size: 1.3rem;
+
+}
+
+.ipt-search::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:black;
+  opacity: 0.8; /* Firefox */
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.form-control{
+  height: 60px;
+  width: 200px;
+  line-height: 60px;
+  padding: 0 30px;
+  background-color: transparent ;
+  border:  none;
+  font-weight: bold;
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+.search-select{
+  border: solid white;
+}
+.btn-search{
+  height: 64px;
+  width: 60px;
+  background-color: white;
+  border: solid white;
+  border-radius: 0rem 2rem 2rem 0;
+}
+.btn-search i {
+  color: rgb(14, 238, 14);
+}
+.btn-search:hover{
+background-color: rgb(89, 116, 107);
+}
